@@ -1,0 +1,118 @@
+@import "null.css";
+
+body{
+    position: relative;
+    background: rgb(34,193,195);
+background: linear-gradient(0deg, rgba(34,193,195,0.8606793059020483) 33%, rgba(45,221,253,0.5749650201877626) 74%);
+    
+}
+
+.body{
+    
+    background: rgb(131,58,180);
+    background: radial-gradient(circle, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    width: 400px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 0 0 100px 100px;
+    position: absolute;
+    top: 400px;
+    left: 500px; 
+     
+}
+.body__item-1{
+    
+
+}
+.body__item-1::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color:yellow;
+    position: relative;
+    top:5px;
+    left: 250px;
+}
+
+.body__item-2{
+
+}
+.body__item-2::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color:yellow;
+    position: relative;
+    top:-17px;
+    left: 300px;
+}
+.body__item-3{
+
+}
+.body__item-3::after{
+    content: "";
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    background-color:yellow;
+    position: relative;
+    top:-40px;
+    left: 350px;
+
+}
+.body__item{
+    width: 15px;
+    height: 300px;
+    background-color: brown;
+    border: 3px solid black;
+    border-radius: 10px 10px 0 0;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+}
+.body__flag{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    top: 100px;
+    left: 700px;
+    
+    
+}
+.flag__1{
+    width: 100%;
+    height: 25px;
+    background-color: blue;
+}
+.flag__2{
+    width:100% ;
+    height: 25px;
+    background-color: yellow;
+
+}
+.body__sail-1{
+    width:0;
+    height: 0;
+    border-top: 100px dashed transparent;
+    border-right: 200px dashed aqua;
+    border-bottom: 100px dashed transparent;
+    position: absolute;
+    top: 170px;
+    left: 500px;   
+}
+.body__sail-2{
+    width: 0;
+    height: 0;
+    border-top: 100px dashed transparent;
+    border-left: 200px dashed aqua;
+    border-bottom: 100px dashed transparent;
+    position: absolute;
+    top:200px;
+    left: 715px;
+}
+
